@@ -4,6 +4,11 @@ renderType: freemarker
 dialog: demo-lm:pages/demo
 visible: true
 areas:
+  navigation:
+   type: noComponent
+   createAreaNode: false
+   templateScript: /demo-lm/templates/areas/navigation.ftl
+
   main:
     availableComponents:
       textImage:

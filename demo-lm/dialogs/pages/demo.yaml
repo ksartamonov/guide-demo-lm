@@ -3,6 +3,9 @@ form:
     title:
       $type: textField
       i18n: true
+    navigationTitle:
+      $type: textField
+      i18n: true
     windowTitle:
       $type: textField
       i18n: true

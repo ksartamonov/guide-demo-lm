@@ -10,6 +10,7 @@
   <body>
 
     <div class="container">
+      [@cms.area name="navigation"/]
       <h1>${content.windowTitle!content.title!}</h1>
       <div class="main">
         [@cms.area name="main"/]
