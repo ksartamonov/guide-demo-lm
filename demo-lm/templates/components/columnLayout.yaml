@@ -1,0 +1,23 @@
+templateScript: /demo-lm/templates/components/columnLayout.ftl
+dialog: demo-lm:components/columnLayout
+
+renderType: freemarker
+areas:
+  column1: &column1
+    type: list
+    availableComponents:
+      textImage:
+        id: mtk:components/textImage
+      linkList:
+        id: mtk:components/linkList
+      teaser:
+        id: mtk:components/teaser
+      video:
+        id: mtk:components/video
+      html:
+        id: mtk:components/html
+      form:
+        id: form:components/form
+  column2: *column1
+  column3: *column1
+  column4: *column1

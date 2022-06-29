@@ -22,4 +22,6 @@ areas:
         id: mtk2:components/linkList
       link:
         id: mtk2:components/link
+      columnLayout:
+        id: demo-lm:components/columnLayout
       
