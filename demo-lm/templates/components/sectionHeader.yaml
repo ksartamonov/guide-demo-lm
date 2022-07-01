@@ -1,0 +1,5 @@
+renderType: freemarker
+templateScript: /demo-lm/templates/components/sectionHeader.ftl
+dialog: demo-lm:components/sectionHeader
+
+type: sectionHeader

@@ -3,14 +3,18 @@ templateScript: /demo-lm/templates/pages/demo.ftl
 renderType: freemarker
 dialog: demo-lm:pages/demo
 visible: true
+
 areas:
   navigation:
-   type: noComponent
-   createAreaNode: false
-   templateScript: /demo-lm/templates/areas/navigation.ftl
+    type: single
+    availableComponents:
+      singlePageNav:
+        id: demo-lm:components/singlePageNav
 
   main:
     availableComponents:
+      sectionHeader:
+        id: demo-lm:components/sectionHeader
       textImage:
         id: mtk2:components/textImage
       video:
