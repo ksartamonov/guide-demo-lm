@@ -1,0 +1,7 @@
+title: Teaser
+renderType: freemarker
+templateScript: demo-lm/templates/components/teaser.ftl
+dialog: demo-lm:components/teaser
+
+parameters:
+  divClass: btkTeaser thumbnail text-center

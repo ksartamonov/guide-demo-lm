@@ -1,0 +1,44 @@
+title: "Contacts page [#demo]"
+templateScript: /demo-lm/templates/pages/home.ftl
+renderType: freemarker
+dialog: demo-lm:pages/home
+visible: true
+
+areas:
+
+  header:
+    type: single
+    availableComponents:
+      jumbotron:
+        id: demo-lm:components/jumbotron
+
+  main:
+    templateScript: /demo-lm/templates/areas/list.ftl
+    availableComponents:
+      section:
+        id: demo-lm:components/section
+    autoGeneration:
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+      content:
+        contacts:
+          nodeType: mgnl:component
+          templateId: demo-lm:components/contacts
+
+  footer:
+    templateScript: /demo-lm/templates/areas/list.ftl
+    inheritance:
+      enabled: true
+      components: all
+    editable: false
+
+parameters:
+  body_class: article contacts
+
+### Main Container - 'container' (default) or 'container-fluid'
+#  main_container: container-fluid
+
+### Navbar Class - 'navbar navbar-inverse navbar-fixed-top' (default)
+#  navbar_class: navbar navbar-fixed-bottom
+
+### Navbar Container - 'container' (default) or 'container-fluid'
+#  navbar_container: container-fluid

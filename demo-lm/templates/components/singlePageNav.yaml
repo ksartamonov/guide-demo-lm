@@ -1,6 +1,0 @@
-renderType: freemarker
-templateScript: /demo-lm/templates/components/singlePageNav.ftl
-dialog: demo-lm:components/singlePageNav
-
-parameters:
-  navItemType: sectionHeader

@@ -1,0 +1,39 @@
+title: "* Section (Row)"
+renderType: freemarker
+templateScript: /demo-lm/templates/components/section.ftl
+dialog: demo-lm:components/section
+
+parameters:
+  divClass: row
+
+areas:
+  col1: &id0001
+    templateScript: /demo-lm/templates/areas/list.ftl
+    availableComponents:
+      section:
+        id: demo-lm:components/section
+      textImage:
+        id: demo-lm:components/textImage
+      teaser:
+        id: demo-lm:components/teaser
+      image:
+        id: demo-lm:components/image
+      link:
+        id: demo-lm:components/link
+      html:
+        id: demo-lm:components/html
+      carousel:
+        id: demo-lm:components/carousel
+      youtubeVideo:
+        id: demo-lm:components/youtubeVideo
+  col2: *id0001
+  col3: *id0001
+  col4: *id0001
+  col5: *id0001
+  col6: *id0001
+  col7: *id0001
+  col8: *id0001
+  col9: *id0001
+  col10: *id0001
+  col11: *id0001
+  col12: *id0001

@@ -1,0 +1,7 @@
+title: "Youtube video"
+renderType: freemarker
+templateScript: /demo-lm/templates/components/youtubeVideo.ftl
+dialog: demo-lm:components/youtubeVideo
+
+parameters:
+  divClass: btkYoutubeVideo

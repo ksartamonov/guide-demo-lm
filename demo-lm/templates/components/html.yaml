@@ -1,0 +1,7 @@
+title: HTML component
+renderType: freemarker
+templateScript: /demo-lm/templates/components/html.ftl
+dialog: demo-lm:components/html
+
+parameters:
+  divClass: btkHtml
