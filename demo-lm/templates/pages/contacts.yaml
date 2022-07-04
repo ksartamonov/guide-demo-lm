@@ -19,6 +19,9 @@ areas:
     availableComponents:
       section:
         id: demo-lm:components/section
+      form:
+        id: form:components/form
+        
     autoGeneration:
       generatorClass: info.magnolia.rendering.generator.CopyGenerator
       content:
