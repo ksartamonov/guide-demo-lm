@@ -6,11 +6,12 @@ visible: true
 
 areas:
 
-#  header:
-#    type: single
-#    availableComponents:
-#      section:
-#        id: demo-lm:components/section
+ # header:
+ #   type: single
+ #   availableComponents:
+ #     section:
+ #       id: demo-lm:components/section
+
 
   main:
     autoGeneration:

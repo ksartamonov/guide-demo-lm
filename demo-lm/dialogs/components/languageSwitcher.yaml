@@ -1,0 +1,21 @@
+form:
+  tabs:
+    - name: tabMain
+      fields:
+
+        - name: switcherType
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: default
+              value: default
+            - name: list
+              value: list
+            - name: select
+              value: select
+          defaultValue: default
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -10,12 +10,14 @@ areas:
     availableComponents:
       jumbotron:
         id: demo-lm:components/jumbotron
-
+      languageSwitcher:
+        id: demo-lm:components/languageSwitcher
   main:
     templateScript: /demo-lm/templates/areas/list.ftl
     availableComponents:
       section:
         id: demo-lm:components/section
+
 
   footer:
     templateScript: /demo-lm/templates/areas/list.ftl

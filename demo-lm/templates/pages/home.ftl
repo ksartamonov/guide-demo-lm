@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" type="text/css"  href="${ctx.contextPath}/.resources/demo-lm/webresources/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css"  href="${ctx.contextPath}/.resources/demo-lm/webresources/css/btkComponents.css"/>
+    <link rel="stylesheet" type="text/css"  href="${ctx.contextPath}/.resources/demo-lm/webresources/css/languageSwitcher.css"/>
+
 
   </head>
   <body class="${def.parameters.body_class!"home"} ${cmsfn.language()} [#if cmsfn.isEditMode()]editMode[/#if]">

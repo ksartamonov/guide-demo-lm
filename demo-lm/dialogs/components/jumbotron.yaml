@@ -7,10 +7,12 @@ form:
 
         - name: title
           label: "Overwrite Page Title"
+          i18n: true
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
 
         - name: desc
           label: "Overwrite Page Description"
+          i18n: true
           class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
 
 
