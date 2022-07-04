@@ -1,0 +1,544 @@
+'code-discovery':
+  'hideInNav': true
+  'jcr:mixinTypes': ['mgnl:hasVersion']
+  'jcr:primaryType': 'mgnl:page'
+  'jcr:uuid': 'f2905e1a-72e7-4109-8cfe-4e3c7e5d4601'
+  'mgnl:activationStatus': true
+  'mgnl:created': 2022-07-04T10:26:33.280+03:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastActivated': 2022-07-04T15:42:32.500+03:00
+  'mgnl:lastActivatedBy': 'superuser'
+  'mgnl:lastModified': 2022-07-04T14:16:46.025+03:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'mgnl:template': 'demo-lm:pages/home'
+  'navigationTitle_ru': 'Код открытия'
+  'title': 'Code Discovery'
+  'title_ru': 'Код открытия'
+  'windowTitle': 'cos'
+  'header':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': 'b56703a0-3e42-4e22-b5dd-767990261835'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2022-07-04T10:26:35.167+03:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2022-07-04T15:42:32.501+03:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2022-07-04T14:00:21.042+03:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '00':
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': '4f3120a2-c346-499b-8188-e3f438c9b2d7'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T12:55:50.645+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.501+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T14:00:21.042+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'demo-lm:components/languageSwitcher'
+      'switcherType': 'default'
+    '0':
+      'desc': '<p>The company was created to solve the problems of forming domestic
+        data platforms for both government and commercial customers.</p>
+
+        '
+      'desc_ru': '<p>Компания создана для решения задач формирования отечественных
+        платформ работы с данными как для государственных, так и для коммерческих
+        заказчиков.</p>
+
+        '
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': '5985b32e-3faa-4dea-a95e-db23ab31432d'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:27:50.606+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.501+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T13:00:14.697+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'demo-lm:components/jumbotron'
+      'title': 'CODE DISCOVERY'
+      'title_ru': 'КОД ОТКРЫТИЯ'
+  'main':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': '032e51f5-26ad-44ec-a758-f99af5f11c78'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2022-07-04T10:26:35.181+03:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2022-07-04T15:42:32.502+03:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2022-07-04T13:02:42.150+03:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': 'bf1ad0de-8c1b-4d33-88f2-075c19de79e2'
+      'layout': 'col-xs-12 col-sm-6, col-xs-12 col-sm-6'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:28:06.130+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.502+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T13:02:42.150+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'demo-lm:components/section'
+      'col1':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '237d54df-4c18-4b79-8a18-9364e1dd8f8e'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:28:06.191+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:32.502+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T13:01:43.061+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        '0':
+          'imageOrIcon': 'image'
+          'imageStyle': 'img'
+          'jcr:primaryType': 'mgnl:component'
+          'jcr:uuid': 'c26a58c0-8a7e-4028-b7eb-f358ff7aedac'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2022-07-04T10:29:10.332+03:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2022-07-04T15:42:32.502+03:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2022-07-04T13:01:01.533+03:00
+          'mgnl:lastModifiedBy': 'superuser'
+          'mgnl:template': 'demo-lm:components/textImage'
+          'orientation': 'noImage'
+          'text': '<p>We specialize in the development of high-tech web-oriented applications
+            and websites, and also offer comprehensive solutions for the development
+            of data management systems.</p>
+
+
+            <p>LLC &ldquo;Code of Discovery&rdquo; has qualified specialists and the
+            necessary technological resources to solve complex problems at any level.
+            This allows us to successfully cooperate with organizations such as&nbsp;&nbsp;Moscow
+            Institute of Physics and Technology, Institute of Precision Mechanics
+            and Computer Engineering, Institute of Radioelectronics of the Russian
+            Academy of Sciences, etc.</p>
+
+
+            <p>We will help you choose the optimal solutions for your task, formalize
+            it and suggest the right architecture and the choice of a site for hosting
+            the server part of the solution.</p>
+
+
+            <p>A significant competitive advantage is the availability of competencies
+            in the field of artificial intelligence for data processing.</p>
+
+
+            <p>By contacting us, you will receive a high level of service and optimization
+            of your technologies.</p>
+
+            '
+          'text_ru': '<p>Мы специализируемся на разработке высокотехнологичных веб-ориентированных
+            приложений и сайтов, а также предлагаем комплексные решения по разработке
+            систем управления данными.</p>
+
+
+            <p>ООО &ldquo;Код открытия&rdquo; располагает квалифицированными специалистами
+            и необходимыми технологическими ресурсами для решения сложных задач на
+            любом уровне. Это позволяет успешно сотрудничать с такими организациями,
+            как&nbsp; Московский физико-технический институт, Институт точной механики
+            и вычислительной техники, Институт радиоэлектроники РАН и др.</p>
+
+
+            <p>Мы поможем выбрать оптимальные решения для вашей задачи, формализовать
+            ее и подсказать правильную архитектуру и выбор площадки для размещения
+            серверной части решения.</p>
+
+
+            <p>Существенным конкурентным преимуществом является наличие компетенций
+            в области применения искуственного интеллекта для обработки данных.</p>
+
+
+            <p>Обратившись к нам вы получите высокий уровень сервиса и оптимизацию
+            ваших технологий.</p>
+
+            '
+          'title': 'About us'
+          'title_ru': 'О компании'
+        '00':
+          'imageStyle': 'img'
+          'jcr:primaryType': 'mgnl:component'
+          'jcr:uuid': 'b102b6a4-3c1c-4b1b-bc22-d0e3a2e9b112'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2022-07-04T10:32:14.405+03:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2022-07-04T15:42:32.503+03:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2022-07-04T13:01:43.061+03:00
+          'mgnl:lastModifiedBy': 'superuser'
+          'mgnl:template': 'demo-lm:components/textImage'
+          'orientation': 'noImage'
+          'text': '<p>When developing solutions, we use a number of platform solutions
+            that have no analogues in traditional technology stacks.</p>
+
+
+            <p>We implement public portal solutions based on the open source Magnolia
+            CMS solution.</p>
+
+
+            <p>A serious competitive advantage is the experience of using XSL FO for
+            Digital Polygraphy solutions.</p>
+
+
+            <p>&nbsp;</p>
+
+            '
+          'text_ru': '<p>При разработке решений нами используется ряд платформенных
+            решений, не имеющих анаогов в традиционных технологических стеках.</p>
+
+
+            <p>Публичные портальные решения мы реализуем на основе решения Magnolia
+            CMS с открытым кодом.</p>
+
+
+            <p>Серьезным конкурентным преимуществом является опыт использования XML
+            FO для решений Digital Poligraphy.</p>
+
+            '
+          'title': 'Main technology platforms'
+          'title_ru': 'Основные технологические платформы'
+      'col2':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': 'a18c440d-0717-4524-b295-55d2e935e217'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:28:06.209+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:32.503+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T13:02:42.150+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        '0':
+          'imageOrIcon': 'image'
+          'imageOrIconimage': 'jcr:7269e15b-e63d-49c5-958d-768805474b5f'
+          'imageStyle': 'img'
+          'jcr:primaryType': 'mgnl:component'
+          'jcr:uuid': '891d2a68-a329-4e90-a8c6-21581498b3a6'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2022-07-04T10:31:04.674+03:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2022-07-04T15:42:32.503+03:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2022-07-04T13:02:42.150+03:00
+          'mgnl:lastModifiedBy': 'superuser'
+          'mgnl:template': 'demo-lm:components/textImage'
+          'orientation': 'imageOnTop'
+          'text': "<ul>\n\t<li>Development of software solutions using Magnolia CMS</li>\n\
+            \t<li>Development of solutions based on XML FO for digital printing</li>\n\
+            \t<li>Development of solutions for data analysis</li>\n\t<li>Development\
+            \ of solutions based on artificial intelligence</li>\n\t<li>Development\
+            \ of complex simulation models based on the Event Driven approach.</li>\n\
+            </ul>\n"
+          'text_ru': "<ul>\n\t<li>Разработка программных решений с использованием\
+            \ Magnolia CMS</li>\n\t<li>Разработка решений на основе XML FO для циф\
+            ровой полиграфии</li>\n\t<li>Разработка решений по анализу данных</li>\n\
+            \t<li>Разработка решений на основе искуственного интеллекта&nbsp;</li>\n\
+            \t<li>Разработка комплексных имитационных моделей на основе Event Driven\
+            \ подхода.&nbsp;</li>\n</ul>\n"
+          'title': 'Our services'
+          'title_ru': 'Наши услуги'
+  'footer':
+    'jcr:primaryType': 'mgnl:area'
+    'jcr:uuid': 'a7eeac52-9650-4416-b582-c587dd7c0fab'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2022-07-04T10:26:35.195+03:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2022-07-04T15:42:32.503+03:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2022-07-04T10:26:35.221+03:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'section':
+      'jcr:primaryType': 'mgnl:component'
+      'jcr:uuid': 'f02961ef-b157-4a65-ba7d-9aa8fe1aca93'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:26:35.207+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.504+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T10:26:35.221+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'demo-lm:components/section'
+      'col1':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '22893f0f-498c-42c7-b777-bd67c82e4ad4'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:26:35.223+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:32.504+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:26:35.223+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+  'About':
+    'hideInNav': false
+    'jcr:primaryType': 'mgnl:page'
+    'jcr:uuid': '2268dcfd-0c6d-4080-b08f-62b0d375b53c'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2022-07-04T10:36:02.503+03:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2022-07-04T15:42:33.162+03:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2022-07-04T13:03:48.421+03:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'mgnl:template': 'demo-lm:pages/article'
+    'navigationTitle_ru': 'О компании'
+    'title': 'About us'
+    'title_ru': 'О компании'
+    'windowTitle': 'about'
+    'breadcrumb':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': 'addb8c20-9e70-4cae-9c79-89e51da7a178'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:36:11.563+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:33.162+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T10:36:11.563+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'header':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': 'be3df453-083b-45dd-a1bd-a31fa8dde532'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:36:11.583+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:33.163+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T10:36:49.268+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      '0':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': '67ce4928-eed6-4e2a-8b59-e8e19d007f27'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:36:56.306+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:33.163+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:36:56.306+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'demo-lm:components/jumbotron'
+        'title': 'О компании'
+    'main':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': '6d183ef0-8efb-47b9-bc0d-0cb9b2dd561b'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:36:11.592+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:33.163+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T10:38:00.546+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      '0':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': 'b4633817-decc-479b-8e58-ea419a47797d'
+        'layout': 'col-xs-12'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:37:24.915+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:33.163+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:38:00.546+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'demo-lm:components/section'
+        'titleSize': 'h3'
+        'col1':
+          'jcr:primaryType': 'mgnl:area'
+          'jcr:uuid': 'c2a7f4ee-ea8c-4985-8987-def00a111c3f'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2022-07-04T10:37:24.980+03:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2022-07-04T15:42:33.164+03:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2022-07-04T10:37:33.680+03:00
+          'mgnl:lastModifiedBy': 'superuser'
+          '0':
+            'imageStyle': 'img'
+            'jcr:primaryType': 'mgnl:component'
+            'jcr:uuid': 'd47ac6de-8a65-4e60-b095-23709f515e2b'
+            'mgnl:activationStatus': true
+            'mgnl:created': 2022-07-04T10:37:38.590+03:00
+            'mgnl:createdBy': 'superuser'
+            'mgnl:lastActivated': 2022-07-04T15:42:33.164+03:00
+            'mgnl:lastActivatedBy': 'superuser'
+            'mgnl:lastModified': 2022-07-04T10:37:38.591+03:00
+            'mgnl:lastModifiedBy': 'superuser'
+            'mgnl:template': 'demo-lm:components/textImage'
+            'orientation': 'noImage'
+            'text': '<p>Мы специализируемся на разработке высокотехнологичных веб-ориентированных
+              приложений и сайтов, а также предлагаем комплексные решения по разработке
+              систем управления данными.</p>
+
+
+              <p>ООО &ldquo;Код открытия&rdquo; располагает квалифицированными специалистами
+              и необходимыми технологическими ресурсами для решения сложных задач
+              на любом уровне. Это позволяет успешно сотрудничать с такими организациями,
+              как&nbsp; Московский физико-технический институт, Институт точной механики
+              и вычислительной техники, Институт радиоэлектроники РАН и др.</p>
+
+
+              <p>Мы поможем выбрать оптимальные решения для вашей задачи, формализовать
+              ее и подсказать правильную архитектуру и выбор площадки для размещения
+              серверной части решения.</p>
+
+
+              <p>Существенным конкурентным преимуществом является наличие компетенций
+              в области применения искуственного интеллекта для обработки данных.</p>
+
+
+              <p>Обратившись к нам вы получите высокий уровень сервиса и оптимизацию
+              ваших технологий.</p>
+
+              '
+    'footer':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': 'e6369452-c2bc-489b-bc16-ebcf96151e23'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:36:11.603+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:33.164+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T10:36:11.603+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+    'Contacts':
+      'hideInNav': false
+      'jcr:primaryType': 'mgnl:page'
+      'jcr:uuid': 'd1c5504f-2a1a-40b6-a63e-10903dcd684d'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T10:45:02.685+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:33.368+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T10:55:28.675+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'mgnl:template': 'demo-lm:pages/article'
+      'navigationTitle': 'Контакты'
+      'title': 'Контакты'
+      'breadcrumb':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '237ca8a7-9834-43b9-bf71-2ce110573b60'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:45:04.674+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:33.369+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:45:04.674+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+      'header':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '362c0fe7-8857-4120-acd2-1bb36f7f6bc6'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:45:04.696+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:33.369+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:45:04.696+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+      'main':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '1efe608c-730e-408a-ace3-44fe83381f9b'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:45:04.706+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:33.369+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:45:04.706+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+      'footer':
+        'jcr:primaryType': 'mgnl:area'
+        'jcr:uuid': '756f20f2-a495-4009-b5f1-ef1aece7f712'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T10:45:04.719+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:33.369+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T10:45:04.719+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+  'Contacts':
+    'hideInNav': false
+    'jcr:primaryType': 'mgnl:page'
+    'jcr:uuid': 'e79e24f0-7829-41af-9432-60dfa466f696'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2022-07-04T14:01:29.037+03:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2022-07-04T15:42:32.790+03:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2022-07-04T14:22:54.659+03:00
+    'mgnl:lastModifiedBy': 'superuser'
+    'mgnl:template': 'demo-lm:pages/contacts'
+    'title': 'Contacts'
+    'title_ru': 'Контакты'
+    'header':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': '5c813791-aeed-45f8-9075-b3b238b5cf63'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T14:01:39.982+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.790+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T14:22:54.659+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      '0':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': '36a2d5af-ff71-4c2d-9bc1-ed302a9ed551'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T14:22:56.328+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:32.790+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T14:22:56.328+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'demo-lm:components/languageSwitcher'
+        'switcherType': 'default'
+    'main':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': 'b0f12679-c346-4733-9403-62cbe436fb64'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T14:01:40.010+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.791+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T14:21:51.371+03:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'contacts':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': '0cd1fb10-e4df-4aab-b318-a245090c41cc'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T14:01:40.022+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:32.791+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T14:01:40.022+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'demo-lm:components/contacts'
+      '0':
+        'jcr:primaryType': 'mgnl:component'
+        'jcr:uuid': '48618e73-de89-481b-a622-56ecdd81ad42'
+        'layout': 'col-xs-12'
+        'mgnl:activationStatus': true
+        'mgnl:created': 2022-07-04T14:21:51.318+03:00
+        'mgnl:createdBy': 'superuser'
+        'mgnl:lastActivated': 2022-07-04T15:42:32.791+03:00
+        'mgnl:lastActivatedBy': 'superuser'
+        'mgnl:lastModified': 2022-07-04T14:21:51.371+03:00
+        'mgnl:lastModifiedBy': 'superuser'
+        'mgnl:template': 'demo-lm:components/section'
+        'col1':
+          'jcr:primaryType': 'mgnl:area'
+          'jcr:uuid': 'ac287f90-f55e-44dc-9e54-69c90d5b2574'
+          'mgnl:activationStatus': true
+          'mgnl:created': 2022-07-04T14:21:51.375+03:00
+          'mgnl:createdBy': 'superuser'
+          'mgnl:lastActivated': 2022-07-04T15:42:32.791+03:00
+          'mgnl:lastActivatedBy': 'superuser'
+          'mgnl:lastModified': 2022-07-04T14:21:51.375+03:00
+          'mgnl:lastModifiedBy': 'superuser'
+    'footer':
+      'jcr:primaryType': 'mgnl:area'
+      'jcr:uuid': '497957b4-44c5-4420-a566-fbc255723259'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2022-07-04T14:01:40.058+03:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2022-07-04T15:42:32.792+03:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2022-07-04T14:01:40.058+03:00
+      'mgnl:lastModifiedBy': 'superuser'
