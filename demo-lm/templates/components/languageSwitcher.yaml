@@ -1,6 +1,3 @@
 renderType: freemarker
 templateScript: /demo-lm/templates/components/languageSwitcher.ftl
 dialog: demo-lm:components/languageSwitcher
-
-parameters:
-  switcherTypeDefault: list

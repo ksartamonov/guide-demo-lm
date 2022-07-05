@@ -6,13 +6,13 @@ form:
         - name: switcherType
           class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
           options:
-            - name: default
-              value: default
             - name: list
+              title: List
               value: list
             - name: select
+              title: Select Box
               value: select
-          defaultValue: default
+          defaultValue: select
 
 actions:
   commit:
