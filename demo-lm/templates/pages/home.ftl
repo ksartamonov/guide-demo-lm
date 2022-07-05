@@ -9,10 +9,10 @@
     <meta name="description" content="${content.description!""}" />
     <meta name="keywords" content="${content.keywords!""}" />
 
-    <link rel="stylesheet" type="text/css"  href="${ctx.contextPath}/.resources/demo-lm/webresources/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css"  href="${ctx.contextPath}/.resources/demo-lm/webresources/css/btkComponents.css"/>
-    <link rel="stylesheet" type="text/css"  href="${ctx.contextPath}/.resources/demo-lm/webresources/css/languageSwitcher.css"/>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
   </head>
   <body class="${def.parameters.body_class!"home"} ${cmsfn.language()} [#if cmsfn.isEditMode()]editMode[/#if]">
