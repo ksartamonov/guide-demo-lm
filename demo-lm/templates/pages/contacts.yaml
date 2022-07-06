@@ -7,7 +7,6 @@ visible: true
 areas:
 
   header:
-    type: single
     availableComponents:
       jumbotron:
         id: demo-lm:components/jumbotron
@@ -21,7 +20,7 @@ areas:
         id: demo-lm:components/section
       form:
         id: form:components/form
-        
+
     autoGeneration:
       generatorClass: info.magnolia.rendering.generator.CopyGenerator
       content:
