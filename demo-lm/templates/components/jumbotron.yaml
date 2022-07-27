@@ -1,0 +1,7 @@
+title: "Jumbotron"
+renderType: freemarker
+templateScript: /demo-lm/templates/components/jumbotron.ftl
+dialog: demo-lm:components/jumbotron
+
+parameters:
+  divClass: btkJumbotron jumbotron text-center

@@ -1,0 +1,41 @@
+title: "Home page [#demo]"
+templateScript: /demo-lm/templates/pages/home.ftl
+renderType: freemarker
+dialog: demo-lm:pages/home
+visible: true
+
+areas:
+
+  header:
+    availableComponents:
+      jumbotron:
+        id: demo-lm:components/jumbotron
+      languageSwitcher:
+        id: demo-lm:components/languageSwitcher
+  main:
+    templateScript: /demo-lm/templates/areas/list.ftl
+    availableComponents:
+      section:
+        id: demo-lm:components/section
+
+
+  footer:
+    templateScript: /demo-lm/templates/areas/list.ftl
+    autoGeneration:
+      generatorClass: info.magnolia.rendering.generator.CopyGenerator
+      content:
+        section:
+          nodeType: mgnl:component
+          templateId: demo-lm:components/section
+
+parameters:
+  body_class: home
+
+### Main Container - 'container' (default) or 'container-fluid'
+#  main_container: container-fluid
+
+### Navbar Class - 'navbar navbar-inverse navbar-fixed-top' (default)
+#  navbar_class: navbar navbar-fixed-bottom
+
+### Navbar Container - 'container' (default) or 'container-fluid'
+#  navbar_container: container-fluid

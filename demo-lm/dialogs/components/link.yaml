@@ -1,0 +1,28 @@
+form:
+  label: Link / Button
+  tabs:
+    - name: tabText
+      label: "Link"
+      fields:
+
+        - !include /demo-lm/includes/dialogs/link.inc.yaml
+
+        - name: label
+          label: "Link label"
+          description:
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+
+        - !include /demo-lm/includes/dialogs/glyphicons.inc.yaml
+
+    - name: tabStyles
+      label: "Styles"
+      fields:
+
+        - !include /demo-lm/includes/dialogs/linkStyle.inc.yaml
+
+        - !include /demo-lm/includes/dialogs/linkSize.inc.yaml
+
+        - !include /demo-lm/includes/dialogs/divClass.inc.yaml
+
+
+actions: !include /demo-lm/includes/dialogs/actions.inc.yaml

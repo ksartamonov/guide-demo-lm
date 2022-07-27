@@ -1,0 +1,6 @@
+title: contacts
+renderType: freemarker
+templateScript: /demo-lm/templates/components/contacts.ftl
+
+parameters:
+  divClass: btkContacts

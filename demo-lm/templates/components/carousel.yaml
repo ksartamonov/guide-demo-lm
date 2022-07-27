@@ -1,0 +1,7 @@
+title: Carousel
+renderType: freemarker
+templateScript: /demo-lm/templates/components/carousel.ftl
+dialog: demo-lm:components/carousel
+
+parameters:
+  divClass: btkCarousel carousel slide

@@ -1,0 +1,42 @@
+title: "Article page [#demo]"
+templateScript: /demo-lm/templates/pages/home.ftl
+renderType: freemarker
+dialog: demo-lm:pages/home
+visible: true
+
+areas:
+
+  breadcrumb:
+    templateScript: /demo-lm/templates/areas/breadcrumb.ftl
+    editable: false
+
+  header:
+    availableComponents:
+      jumbotron:
+        id: demo-lm:components/jumbotron
+      languageSwitcher:
+        id: demo-lm:components/languageSwitcher
+  main:
+    templateScript: /demo-lm/templates/areas/list.ftl
+    availableComponents:
+      section:
+        id: demo-lm:components/section
+
+  footer:
+    templateScript: /demo-lm/templates/areas/list.ftl
+    inheritance:
+      enabled: true
+      components: all
+    editable: false
+
+parameters:
+  body_class: article
+
+### Main Container - 'container' (default) or 'container-fluid'
+#  main_container: container-fluid
+
+### Navbar Class - 'navbar navbar-inverse navbar-fixed-top' (default)
+#  navbar_class: navbar navbar-fixed-bottom
+
+### Navbar Container - 'container' (default) or 'container-fluid'
+#  navbar_container: container-fluid
