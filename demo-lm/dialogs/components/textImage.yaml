@@ -20,6 +20,7 @@ form:
           label: "Layout"
           description:
           type: String
+          i18n: true
           class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
           options:
             - label: "Image on left, text on right (default)"

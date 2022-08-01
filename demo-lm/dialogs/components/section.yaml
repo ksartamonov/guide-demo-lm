@@ -7,6 +7,7 @@ form:
 
         - name: title
           label: "Section Title"
+          i18n: true
           class: info.magnolia.ui.form.field.definition.TextFieldDefinition
 
         - !include /demo-lm/includes/dialogs/titleSize.inc.yaml

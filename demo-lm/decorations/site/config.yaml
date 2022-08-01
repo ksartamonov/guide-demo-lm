@@ -2,25 +2,13 @@ site:
   i18n:
     class: info.magnolia.cms.i18n.DefaultI18nContentSupport
     enabled: true
-    fallbackLocale: en
+    fallbackLocale: ru
     locales:
       en:
         country: ''
         enabled: true
         language: en
-      de:
-        country: ''
-        enabled: true
-        language: de
       ru:
         country: ''
         enabled: true
         language: ru
-      be:
-        country: ''
-        enabled: true
-        language: be
-      zh:
-        country: ''
-        enabled: true
-        language: zh
